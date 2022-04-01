@@ -2,6 +2,7 @@
 // 
 import java.util.Arrays;
 import package2.*;
+import InnerClass.*;
 
 public class App {
     public void printArr(int[] a) {
@@ -15,13 +16,14 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        
-        int[] a = new int[]{1,2,3};
-        printArray(a);
 
-        // TODO : 전체 프로젝트를 실행하여야 함
-        colabo oColabo = new colabo();
-        oColabo.print();
+        
+        LocalInnerClass.test();
+
+        // int[] a = new int[]{1,2,3};
+        // printArray(a);
+        // colabo oColabo = new colabo();
+        // oColabo.print();
     }
 }
  
