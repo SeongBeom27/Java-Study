@@ -32,6 +32,17 @@ class Goods2 {
     }
 }
 
+class Goods {
+    private Object object = new Object();
+    public Object get() {
+        return object;
+    }
+
+    public void set(Object object) {
+        this.object = object;
+    }
+}
+
 public class GenericEx1 {
     public static void main(String[] args) {
         Goods1 goods1 = new Goods1();
