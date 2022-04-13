@@ -1,7 +1,7 @@
 // option + shift + o -> 파일 전체에서 import 할 클래스를 모두 찾아서 자동 import
 // 
 import java.util.Arrays;
-import package2.*;
+// import package2.*;
 import InnerClass.*;
 
 public class App {
